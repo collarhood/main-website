@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Request a custom quote for your college club, corporate team, or organization merchandise. Get premium quality hoodies, t-shirts, and accessories customized for your group.">
+  <title>Custom Order - Collarhood | Get Your Quote</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="icon" href="https://customer-assets.emergentagent.com/job_collar-collection/artifacts/vb7w86ie_collarhood%20logo%20png%202.png">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-content">
+        <a href="../index.html" class="navbar-logo">
+          <img src="https://customer-assets.emergentagent.com/job_collar-collection/artifacts/vb7w86ie_collarhood%20logo%20png%202.png" alt="Collarhood Logo">
+          <span class="navbar-logo-text">COLLARHOOD</span>
+        </a>
+
+        <div class="navbar-menu">
+          <a href="../index.html" class="navbar-link">HOME</a>
+          <a href="products-static.html" class="navbar-link">PRODUCTS</a>
+          <a href="gallery-static.html" class="navbar-link">GALLERY</a>
+          <a href="about-static.html" class="navbar-link">ABOUT</a>
+          <a href="blog-static.html" class="navbar-link">BLOG</a>
+          <a href="contact.html" class="navbar-link">CONTACT</a>
+          <a href="custom-order.html" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.75rem;">GET QUOTE</a>
+        </div>
+
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+          <svg class="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu">
+        <a href="../index.html">HOME</a>
+        <a href="products-static.html">PRODUCTS</a>
+        <a href="gallery-static.html">GALLERY</a>
+        <a href="about-static.html">ABOUT</a>
+        <a href="blog-static.html">BLOG</a>
+        <a href="contact.html">CONTACT</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="section" style="padding-top: 8rem; padding-bottom: 3rem;">
+    <div class="container" style="max-width: 48rem;">
+      <div class="text-center mb-12">
+        <h1 class="font-anton" style="font-size: clamp(3rem, 8vw, 5rem); color: var(--white); text-transform: uppercase; margin-bottom: 1rem;">
+          GET YOUR QUOTE
+        </h1>
+        <p style="color: var(--gray-400); font-size: 1.125rem;">Tell us about your project and we'll get back to you within 24 hours</p>
+      </div>
+
+      <!-- Order Form -->
+      <form id="custom-order-form" action="https://formsubmit.co/info@collarhood.com" method="POST" class="glass" style="padding: 3rem 2rem;">
+        <!-- FormSubmit Configuration -->
+        <input type="hidden" name="_subject" value="New Custom Order Quote Request - Collarhood">
+        <input type="hidden" name="_next" value="https://collarhood.com/index.html">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" style="display:none">
+        
+        <div class="form-group">
+          <label class="form-label" for="name">Your Name *</label>
+          <input type="text" id="name" name="name" class="form-input" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="email">Email Address *</label>
+          <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="phone">Phone Number *</label>
+          <input type="tel" id="phone" name="phone" class="form-input" placeholder="+91 XXXXX XXXXX" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="crew_name">Organization/Crew Name</label>
+          <input type="text" id="crew_name" name="crew_name" class="form-input" placeholder="College, Company, or Team Name">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="product_type">Product Type *</label>
+          <select id="product_type" name="product_type" class="form-select" required>
+            <option value="">SELECT PRODUCT TYPE</option>
+            <option value="hoodie">Hoodie</option>
+            <option value="t-shirt">T-Shirt</option>
+            <option value="sweatshirt">Sweatshirt</option>
+            <option value="jersey">Jersey</option>
+            <option value="jacket">Jacket</option>
+            <option value="accessories">Accessories</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="quantity">Quantity (approx.)</label>
+          <input type="number" id="quantity" name="quantity" class="form-input" placeholder="50" min="1">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="delivery_date">Expected Delivery Date</label>
+          <input type="date" id="delivery_date" name="delivery_date" class="form-input">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="design_notes">Design Requirements</label>
+          <textarea id="design_notes" name="design_notes" class="form-textarea" placeholder="Describe your design ideas, color preferences, printing requirements, etc."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%; padding: 1rem 2rem; font-size: 1rem;">
+          SUBMIT QUOTE REQUEST
+        </button>
+
+        <p style="text-align: center; color: var(--gray-500); font-size: 0.875rem; margin-top: 1rem;">
+          We'll review your requirements and get back to you within 24 hours
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="https://customer-assets.emergentagent.com/job_collar-collection/artifacts/vb7w86ie_collarhood%20logo%20png%202.png" alt="Collarhood">
+            <h3 class="footer-brand-text">COLLARHOOD</h3>
+          </div>
+          <p class="footer-description">
+            India's premier custom merchandise platform for colleges, corporates, and groups. Founded by IIT alumni.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="products-static.html">Products</a></li>
+            <li><a href="gallery-static.html">Gallery</a></li>
+            <li><a href="custom-order.html">Custom Order</a></li>
+            <li><a href="about-static.html">About Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Legal</h4>
+          <ul class="footer-links">
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+            <li><a href="refund-policy.html">Refund Policy</a></li>
+            <li><a href="shipping-policy.html">Shipping Policy</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Contact</h4>
+          <ul class="footer-contact">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" style="flex-shrink: 0; margin-top: 0.25rem;">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+              </svg>
+              <span>info@collarhood.com</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" style="flex-shrink: 0; margin-top: 0.25rem;">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+              </svg>
+              <span>+91 7976141577</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          &copy; 2026 Collarhood. India's Premium College Merchandise Platform. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script>
+    // Custom order form is now handled by FormSubmit.co
+    // No JavaScript needed - form submits directly to email
+  </script>
+</body>
+</html>

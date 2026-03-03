@@ -1,0 +1,115 @@
+{
+  "name": "Collarhood Static Website",
+  "version": "1.0.0",
+  "description": "Static HTML/CSS/JS version of Collarhood custom merchandise platform",
+  "homepage": "https://collarhood.com",
+  "author": "Collarhood Team",
+  "license": "Proprietary",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/collarhood/collarhood-website"
+  },
+  "config": {
+    "api": {
+      "development": "http://localhost:8000/api",
+      "production": "https://api.collarhood.com/api"
+    },
+    "port": 8080
+  },
+  "keywords": [
+    "custom merchandise",
+    "college merch",
+    "corporate apparel",
+    "custom hoodies",
+    "custom t-shirts",
+    "India",
+    "IIT alumni"
+  ],
+  "features": [
+    "Product catalog with filtering",
+    "Custom order form with file upload",
+    "Gallery showcase",
+    "Testimonials",
+    "Blog system",
+    "Contact form",
+    "Responsive design",
+    "API integration"
+  ],
+  "technologies": {
+    "frontend": [
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "Vanilla JS (no frameworks)"
+    ],
+    "backend": [
+      "FastAPI",
+      "MongoDB",
+      "Python 3.8+"
+    ]
+  },
+  "browsers": [
+    "Chrome >= 90",
+    "Firefox >= 88",
+    "Safari >= 14",
+    "Edge >= 90"
+  ],
+  "deployment": [
+    "Netlify",
+    "Vercel",
+    "GitHub Pages",
+    "Traditional Web Hosting"
+  ],
+  "scripts": {
+    "dev": "python3 -m http.server 8080",
+    "serve": "npx http-server -p 8080"
+  },
+  "files": {
+    "pages": [
+      "index.html",
+      "pages/products.html",
+      "pages/custom-order.html",
+      "pages/gallery.html",
+      "pages/about.html",
+      "pages/contact.html"
+    ],
+    "styles": [
+      "css/styles.css"
+    ],
+    "scripts": [
+      "js/main.js"
+    ],
+    "documentation": [
+      "README.md",
+      "QUICK_START.md",
+      "IMPLEMENTATION_SUMMARY.md"
+    ]
+  },
+  "design": {
+    "theme": "Gen Z Streetwear",
+    "colors": {
+      "primary": "#FFB800",
+      "secondary": "#F97316",
+      "accent": "#14B8A6",
+      "background": "#020408",
+      "card": "#0B1121"
+    },
+    "fonts": {
+      "headings": "Anton",
+      "subheadings": "Outfit",
+      "body": "Manrope",
+      "mono": "JetBrains Mono"
+    }
+  },
+  "status": {
+    "homepage": "complete",
+    "products": "complete",
+    "custom-order": "complete",
+    "gallery": "complete",
+    "about": "complete",
+    "contact": "complete",
+    "blog": "template-ready",
+    "testimonials": "template-ready",
+    "legal-pages": "template-ready"
+  }
+}
