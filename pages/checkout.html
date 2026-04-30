@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Get in touch with Collarhood. Contact us for custom merchandise inquiries, support, or partnership opportunities. We're here to help!">
+  <title>Checkout | Collarhood</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="icon"
+    href="https://customer-assets.emergentagent.com/job_collar-collection/artifacts/vb7w86ie_collarhood%20logo%20png%202.png">
+</head>
+<body>
+<!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-content">
+        <a href="../index.html" class="navbar-logo">
+          <img
+            src="https://customer-assets.emergentagent.com/job_collar-collection/artifacts/vb7w86ie_collarhood%20logo%20png%202.png"
+            alt="Collarhood Logo">
+          <span class="navbar-logo-text">COLLARHOOD</span>
+        </a>
+
+        <div class="navbar-menu">
+          <a href="../index.html" class="navbar-link">HOME</a>
+          <a href="products-static.html" class="navbar-link">PRODUCTS</a>
+          <a href="gallery-static.html" class="navbar-link">GALLERY</a>
+          <a href="about-static.html" class="navbar-link">ABOUT</a>
+          <a href="blog-static.html" class="navbar-link">BLOG</a>
+          <a href="contact.html" class="navbar-link" >CONTACT</a>
+          <a href="custom-order.html" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.75rem;">GET
+            QUOTE</a>
+        </div>
+
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+          <svg class="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu">
+        <a href="../index.html">HOME</a>
+        <a href="products-static.html">PRODUCTS</a>
+        <a href="gallery-static.html">GALLERY</a>
+        <a href="about-static.html">ABOUT</a>
+        <a href="blog-static.html">BLOG</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="custom-order.html" class="btn btn-primary"
+          style="margin-top: 1rem; display: block; text-align: center;">GET QUOTE</a>
+      </div>
+    </div>
+  </nav>
+
+  
+  <!-- Page Header -->
+  <section class="section" style="padding-top: 8rem; padding-bottom: 3rem; min-height: 80vh;">
+    <div class="container" style="max-width: 72rem;">
+      <div class="text-center mb-8">
+        <h1 class="font-anton" style="font-size: clamp(2.5rem, 6vw, 4rem); color: var(--white); text-transform: uppercase; margin-bottom: 0.5rem;">
+          CHECKOUT
+        </h1>
+        <p style="color: var(--gray-400); font-size: 1.125rem;">Complete your order securely.</p>
+      </div>
+
+      <div id="checkout-container" style="display: grid; grid-template-columns: 1fr 350px; gap: 2rem; align-items: start;">
+        
+        <!-- Left: Form -->
+        <div class="glass" style="padding: 2rem; border-radius: 1rem;">
+          <h2 class="font-outfit" style="font-size: 1.5rem; font-weight: 700; color: var(--white); margin-bottom: 1.5rem;">Shipping Details</h2>
+          <form id="checkout-form">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+              <div class="form-group">
+                <label class="form-label" for="firstName">First Name *</label>
+                <input type="text" id="firstName" class="form-input" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="lastName">Last Name *</label>
+                <input type="text" id="lastName" class="form-input" required>
+              </div>
+            </div>
+            
+            <div class="form-group" style="margin-bottom: 1rem;">
+              <label class="form-label" for="email">Email Address *</label>
+              <input type="email" id="email" class="form-input" required>
+            </div>
+            
+            <div class="form-group" style="margin-bottom: 1rem;">
+              <label class="form-label" for="phone">Phone Number *</label>
+              <input type="tel" id="phone" class="form-input" required>
+            </div>
+            
+            <div class="form-group" style="margin-bottom: 1rem;">
+              <label class="form-label" for="address">Address *</label>
+              <input type="text" id="address" class="form-input" placeholder="Street Address, Apartment, etc." required>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; margin-bottom: 2rem;">
+              <div class="form-group">
+                <label class="form-label" for="city">City *</label>
+                <input type="text" id="city" class="form-input" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="state">State *</label>
+                <input type="text" id="state" class="form-input" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="zip">ZIP Code *</label>
+                <input type="text" id="zip" class="form-input" required>
+              </div>
+            </div>
+
+            <h2 class="font-outfit" style="font-size: 1.5rem; font-weight: 700; color: var(--white); margin-bottom: 1.5rem;">Payment Method</h2>
+            <div class="glass" style="padding: 1rem; border-radius: 0.5rem; border: 1px solid var(--yellow); margin-bottom: 2rem; background: rgba(255,184,0,0.05);">
+              <label style="display: flex; align-items: center; cursor: pointer;">
+                <input type="radio" name="payment" value="cod" checked style="margin-right: 0.75rem; accent-color: var(--yellow); width: 1.25rem; height: 1.25rem;">
+                <span style="color: var(--white); font-weight: 600; font-size: 1.125rem;">Cash on Delivery (COD)</span>
+              </label>
+              <p style="color: var(--gray-400); font-size: 0.875rem; margin-top: 0.5rem; margin-left: 2rem;">Pay with cash upon delivery.</p>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; padding: 1rem; font-size: 1.125rem;">Place Order</button>
+          </form>
+        </div>
+
+        <!-- Right: Order Summary -->
+        <div class="glass" style="padding: 2rem; border-radius: 1rem; position: sticky; top: 100px;">
+          <h2 class="font-outfit" style="font-size: 1.5rem; font-weight: 700; color: var(--white); margin-bottom: 1.5rem;">Order Summary</h2>
+          
+          <div id="cart-items" style="margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
+            <!-- Populated by JS -->
+          </div>
+
+          <div style="display: flex; justify-content: space-between; margin-bottom: 1rem; color: var(--gray-300);">
+            <span>Subtotal</span>
+            <span id="subtotal-amt">₹0</span>
+          </div>
+          <div style="display: flex; justify-content: space-between; margin-bottom: 1rem; color: var(--gray-300);">
+            <span>Shipping</span>
+            <span>Free</span>
+          </div>
+          
+          <div style="display: flex; justify-content: space-between; margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1); color: var(--white); font-size: 1.25rem; font-weight: 700;">
+            <span>Total</span>
+            <span id="total-amt" style="color: var(--yellow);">₹0</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Success Screen (Hidden by Default) -->
+      <div id="success-container" class="glass" style="display: none; padding: 4rem 2rem; border-radius: 1rem; text-align: center; max-width: 40rem; margin: 0 auto;">
+        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="var(--yellow)" style="margin: 0 auto 1.5rem;">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <h2 class="font-anton" style="font-size: 2.5rem; color: var(--white); text-transform: uppercase; margin-bottom: 1rem;">Order Successful!</h2>
+        <p style="color: var(--gray-300); font-size: 1.125rem; margin-bottom: 0.5rem;">Thank you for your purchase.</p>
+        <p style="color: var(--gray-300); font-size: 1.125rem; margin-bottom: 2rem;">Your order number is <strong id="order-number" style="color: var(--yellow);">#CH-12345</strong>.</p>
+        <p style="color: var(--gray-400); font-size: 1rem; margin-bottom: 2rem;">We will contact you shortly to confirm the delivery details for your Cash on Delivery order.</p>
+        <a href="products-static.html" class="btn btn-primary" style="padding: 1rem 2rem;">Continue Shopping</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Responsive styles for checkout -->
+  <style>
+    @media (max-width: 768px) {
+      #checkout-container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+<!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img
+              src="https://customer-assets.emergentagent.com/job_collar-collection/artifacts/vb7w86ie_collarhood%20logo%20png%202.png"
+              alt="Collarhood">
+            <h3 class="footer-brand-text">Collarhood by Nikhil & Company</h3>
+          </div>
+          <p class="footer-description">
+            India's premier custom merchandise platform. We bring your vision to life with high-quality custom threads.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="products-static.html">Products</a></li>
+            <li><a href="gallery-static.html">Gallery</a></li>
+            <li><a href="custom-order.html">Custom Order</a></li>
+            <li><a href="about-static.html">About Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Legal</h4>
+          <ul class="footer-links">
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+            <li><a href="refund-policy.html">Refund Policy</a></li>
+            <li><a href="shipping-policy.html">Shipping Policy</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Contact</h4>
+          <ul class="footer-contact">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                style="flex-shrink: 0; margin-top: 0.25rem;">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              <span>info@collarhood.com</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                style="flex-shrink: 0; margin-top: 0.25rem;">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              <span>+91 7976141577</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                style="flex-shrink: 0; margin-top: 0.25rem;">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              <span>28, Dher Ka Balaji, Sikar Road, Maharaja Colony, Jaipur, Jaipur, Rajasthan, 302039</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          &copy; 2026 Collarhood by Nikhil & Company. Managed by Nikhil Saraf. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script>
+    // Contact form is now handled by FormSubmit.co
+    // No JavaScript needed - form submits directly to email
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Load cart item from localStorage
+      const cartItemJSON = localStorage.getItem('collarhoodCart');
+      const cartContainer = document.getElementById('cart-items');
+      const checkoutContainer = document.getElementById('checkout-container');
+      
+      let price = 0;
+
+      if (cartItemJSON) {
+        const cartItem = JSON.parse(cartItemJSON);
+        price = cartItem.price;
+        
+        cartContainer.innerHTML = `
+          <div style="display: flex; gap: 1rem; align-items: center;">
+            <div style="width: 60px; height: 60px; border-radius: 0.5rem; overflow: hidden; background: rgba(255,255,255,0.05); flex-shrink: 0;">
+              <img src="${cartItem.image}" alt="${cartItem.title}" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div style="flex-grow: 1;">
+              <h4 style="color: var(--white); font-weight: 600; margin-bottom: 0.25rem;">${cartItem.title}</h4>
+              <p style="color: var(--gray-400); font-size: 0.875rem;">Qty: 1</p>
+            </div>
+            <div style="color: var(--white); font-weight: 600;">
+              ₹${price}
+            </div>
+          </div>
+        `;
+        
+        document.getElementById('subtotal-amt').innerText = `₹${price}`;
+        document.getElementById('total-amt').innerText = `₹${price}`;
+      } else {
+        cartContainer.innerHTML = `<p style="color: var(--gray-400);">Your cart is empty.</p>`;
+        checkoutContainer.innerHTML = `
+          <div class="glass" style="grid-column: 1 / -1; padding: 4rem 2rem; text-align: center; border-radius: 1rem;">
+            <h2 class="font-outfit" style="font-size: 1.5rem; color: var(--white); margin-bottom: 1rem;">Your Cart is Empty</h2>
+            <a href="products-static.html" class="btn btn-primary">Browse Products</a>
+          </div>
+        `;
+        return;
+      }
+
+      // Handle Form Submission
+      const form = document.getElementById('checkout-form');
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        
+        // Generate random order number
+        const orderNum = Math.floor(10000 + Math.random() * 90000);
+        document.getElementById('order-number').innerText = `#CH-${orderNum}`;
+        
+        // Hide checkout, show success
+        document.getElementById('checkout-container').style.display = 'none';
+        document.getElementById('success-container').style.display = 'block';
+        
+        // Clear cart
+        localStorage.removeItem('collarhoodCart');
+        
+        // Scroll to top smoothly
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    });
+  </script>
+
+</body>
+</html>
